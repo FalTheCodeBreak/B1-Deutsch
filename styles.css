@@ -1,0 +1,861 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+p {
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+* {
+    box-sizing: border-box; /* Memastikan padding dan margin tidak mempengaruhi ukuran elemen */
+}
+
+* {
+    box-sizing: border-box; /* Memastikan padding dan margin tidak mempengaruhi ukuran elemen */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu-container {
+    position: relative; /* Memungkinkan dropdown untuk diposisikan relatif terhadap container ini */
+}
+
+#menuButton {
+    padding: 10px 20px;
+    background-color: #71be3c; /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Menunjukkan bahwa ini adalah tombol yang dapat diklik */
+    font-size: 16px; /* Ukuran font */
+    transition: background-color 0.3s, transform 0.3s; /* Efek transisi */
+}
+
+#menuButton:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+.dropdown-content {
+    display: none; /* Menyembunyikan menu secara default */
+    position: absolute; /* Memungkinkan menu untuk ditampilkan di bawah tombol */
+    left: 0; /* Menempatkan menu di bawah tombol */
+    background-color: white; /* Warna latar belakang menu */
+    min-width: 160px; /* Lebar minimum menu */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+    z-index: 1; /* Agar menu muncul di atas elemen lain */
+}
+
+.dropdown-content a {
+    color: #333; /* Warna teks link */
+    padding: 12px 16px; /* Padding untuk link */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    display: block; /* Membuat link menjadi blok penuh */
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1; /* Efek hover pada link */
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd; /* Efek hover */
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    color: black;
+    position: relative;
+}
+
+.footer p {
+    margin: 0; /* Menghilangkan margin default */
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 15px; /* Mengurangi padding pada perangkat kecil */
+        border-radius: 5px; /* Sudut membulat lebih kecil pada perangkat kecil */
+    }
+
+    button {
+        padding: 12px; /* Menambah padding pada tombol di perangkat kecil */
+        font-size: larger; /* Ukuran font lebih besar di perangkat kecil */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sidebar {
+        display: none; /* Sembunyikan sidebar pada layar kecil */
+    }
+}
+
+.menu-container1 {
+    position: relative; /* Memungkinkan dropdown untuk diposisikan relatif terhadap container ini */
+}
+
+#menuButton1 {
+    padding: 10px 20px;
+    background-color: #eec538; /* Warna latar belakang biru */
+    color: white; /* Warna teks putih */
+    border: none; /* Menghilangkan border default */
+    border-radius: 5px; /* Sudut membulat */
+    cursor: pointer; /* Menunjukkan bahwa ini adalah tombol yang dapat diklik */
+    font-size: 16px; /* Ukuran font */
+    transition: background-color 0.3s, transform 0.3s; /* Efek transisi */
+}
+
+#menuButton1:hover {
+    background-color: #0056b3; /* Warna saat hover */
+}
+
+.dropdown-content1 {
+    display: none; /* Menyembunyikan menu secara default */
+    position: absolute; /* Memungkinkan menu untuk ditampilkan di bawah tombol */
+    left: 0; /* Menempatkan menu di bawah tombol */
+    background-color: white; /* Warna latar belakang menu */
+    min-width: 160px; /* Lebar minimum menu */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); /* Bayangan untuk efek kedalaman */
+    z-index: 1; /* Agar menu muncul di atas elemen lain */
+}
+
+.dropdown-content1 a {
+    color: #333; /* Warna teks link */
+    padding: 12px 16px; /* Padding untuk link */
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    display: block; /* Membuat link menjadi blok penuh */
+}
+
+.dropdown-content1 a:hover {
+    background-color: #f1f1f1; /* Efek hover pada link */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.list-container {
+    display: flex; /* Menggunakan Flexbox untuk tata letak */
+    justify-content: space-between; /* Menyebarkan ruang antara dua daftar */
+}
+
+.left-list, .right-list {
+    width: 45%; /* Mengatur lebar untuk masing-masing daftar */
+}
+
+h2 {
+    margin-top: 0; /* Menghilangkan margin atas pada judul */
+}
+
+ul, ol {
+    padding-left: 20px; /* Memberikan padding kiri untuk daftar */
+}
+
+li {
+    margin-bottom: 10px; /* Memberikan jarak antar item dalam daftar */
+}
+
+
+#atas {
+    background-color: #b200ed; /* Warna latar belakang hijau */
+    color: white; /* Warna teks putih */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+}
+
+#tengah {
+    background-color: #ffc8dd; /* Warna latar belakang hijau */
+    color: white; /* Warna teks putih */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+}
+
+#apaaja{
+    background-color: white; /* Warna latar belakang hijau */
+    color: brown; /* Warna teks putih */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Bayangan */
+}
+
+
+#tabel1 {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Menggabungkan border sel */
+    margin-top: 20px; /* Jarak atas tabel */
+}
+
+#tabel1 th, #tabel1 td {
+    padding: 12px; /* Jarak dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border-bottom: 1px solid #ddd; /* Garis bawah sel */
+}
+
+#tabel1 th {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+#tabel1 tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+#tabel1 {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Menggabungkan border sel */
+    table-layout: fixed; /* Menetapkan tata letak tetap untuk kolom */
+}
+
+#tabel1 th, #tabel1 td {
+    padding: 12px; /* Jarak dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border-bottom: 1px solid #ddd; /* Garis bawah sel */
+}
+
+#tabel1 th {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+#tabel1 tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 600px) {
+    #tabel1 {
+        display: block;
+        overflow-x: auto; /* Menambahkan scroll horizontal jika perlu */
+        white-space: nowrap; /* Mencegah teks turun ke baris baru */
+    }
+
+    #tabel1 th, #tabel1 td {
+        display: inline-block; /* Mengubah tampilan menjadi inline-block untuk responsivitas */
+        width: auto; /* Lebar otomatis untuk kolom */
+        min-width: 100px; /* Lebar minimum untuk kolom agar tidak terlalu kecil */
+        box-sizing: border-box; /* Mengatur box sizing agar padding termasuk dalam lebar total */
+    }
+}
+
+#tabel2 {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Menggabungkan border sel */
+}
+
+#tabel2 th, #tabel2 td {
+    padding: 12px; /* Jarak dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border-bottom: 1px solid #ddd; /* Garis bawah sel */
+}
+
+#tabel2 th {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+#tabel2 tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+/* Menjaga agar kolom tidak berantakan */
+#tabel2 td {
+    overflow-wrap: break-word; /* Memungkinkan kata panjang untuk terputus ke baris berikutnya */
+}
+
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 600px) {
+    #tabel2 {
+        display: block;
+        overflow-x: auto; /* Menambahkan scroll horizontal jika perlu */
+        white-space: nowrap; /* Mencegah teks turun ke baris baru */
+    }
+
+    #tabel2 th, #tabel2 td {
+        display: inline-block; /* Mengubah tampilan menjadi inline-block untuk responsivitas */
+        width: auto; /* Lebar otomatis untuk kolom */
+        min-width: 100px; /* Lebar minimum untuk kolom agar tidak terlalu kecil */
+        box-sizing: border-box; /* Mengatur box sizing agar padding termasuk dalam lebar total */
+    }
+}
+
+
+
+
+
+
+#tabel3 {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Menggabungkan border sel */
+}
+
+#tabel3 th, #tabel3 td {
+    padding: 12px; /* Jarak dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border-bottom: 1px solid #ddd; /* Garis bawah sel */
+}
+
+#tabel3 th {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+#tabel3 tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+/* Menjaga agar kolom tidak berantakan */
+#tabel3 td {
+    overflow-wrap: break-word; /* Memungkinkan kata panjang untuk terputus ke baris berikutnya */
+}
+
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 600px) {
+    #tabel3 {
+        display: block;
+        overflow-x: auto; /* Menambahkan scroll horizontal jika perlu */
+        white-space: nowrap; /* Mencegah teks turun ke baris baru */
+    }
+
+    #tabel3 th, #tabel3 td {
+        display: inline-block; /* Mengubah tampilan menjadi inline-block untuk responsivitas */
+        width: auto; /* Lebar otomatis untuk kolom */
+        min-width: 100px; /* Lebar minimum untuk kolom agar tidak terlalu kecil */
+        box-sizing: border-box; /* Mengatur box sizing agar padding termasuk dalam lebar total */
+    }
+}
+
+#tabel4 {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Menggabungkan border sel */
+}
+
+#tabel4 th, #tabel4 td {
+    padding: 12px; /* Jarak dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border-bottom: 1px solid #ddd; /* Garis bawah sel */
+}
+
+#tabel4 th {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+#tabel4 tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+/* Menjaga agar kolom tidak berantakan */
+#tabel4 td {
+    overflow-wrap: break-word; /* Memungkinkan kata panjang untuk terputus ke baris berikutnya */
+}
+
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 600px) {
+    #tabel4 {
+        display: block;
+        overflow-x: auto; /* Menambahkan scroll horizontal jika perlu */
+        white-space: nowrap; /* Mencegah teks turun ke baris baru */
+    }
+
+    #tabel4 th, #tabel4 td {
+        display: inline-block; /* Mengubah tampilan menjadi inline-block untuk responsivitas */
+        width: auto; /* Lebar otomatis untuk kolom */
+        min-width: 100px; /* Lebar minimum untuk kolom agar tidak terlalu kecil */
+        box-sizing: border-box; /* Mengatur box sizing agar padding termasuk dalam lebar total */
+    }
+}
+
+#tabel5 {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Menggabungkan border sel */
+}
+
+#tabel5 th, #tabel5 td {
+    padding: 12px; /* Jarak dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border-bottom: 1px solid #ddd; /* Garis bawah sel */
+}
+
+#tabel5 th {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+#tabel5 tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+/* Menjaga agar kolom tidak berantakan */
+#tabel5 td {
+    overflow-wrap: break-word; /* Memungkinkan kata panjang untuk terputus ke baris berikutnya */
+}
+
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 600px) {
+    #tabel5 {
+        display: block;
+        overflow-x: auto; /* Menambahkan scroll horizontal jika perlu */
+        white-space: nowrap; /* Mencegah teks turun ke baris baru */
+    }
+
+    #tabel5 th, #tabel5 td {
+        display: inline-block; /* Mengubah tampilan menjadi inline-block untuk responsivitas */
+        width: auto; /* Lebar otomatis untuk kolom */
+        min-width: 100px; /* Lebar minimum untuk kolom agar tidak terlalu kecil */
+        box-sizing: border-box; /* Mengatur box sizing agar padding termasuk dalam lebar total */
+    }
+}
+
+#tabel6 {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Menggabungkan border sel */
+}
+
+#tabel6 th, #tabel6 td {
+    padding: 12px; /* Jarak dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border-bottom: 1px solid #ddd; /* Garis bawah sel */
+}
+
+#tabel6 th {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+#tabel6 tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+/* Menjaga agar kolom tidak berantakan */
+#tabel6 td {
+    overflow-wrap: break-word; /* Memungkinkan kata panjang untuk terputus ke baris berikutnya */
+}
+
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 600px) {
+    #tabel6 {
+        display: block;
+        overflow-x: auto; /* Menambahkan scroll horizontal jika perlu */
+        white-space: nowrap; /* Mencegah teks turun ke baris baru */
+    }
+
+    #tabel6 th, #tabel6 td {
+        display: inline-block; /* Mengubah tampilan menjadi inline-block untuk responsivitas */
+        width: auto; /* Lebar otomatis untuk kolom */
+        min-width: 100px; /* Lebar minimum untuk kolom agar tidak terlalu kecil */
+        box-sizing: border-box; /* Mengatur box sizing agar padding termasuk dalam lebar total */
+    }
+}
+
+#tabel7 {
+    width: 100%; /* Lebar tabel penuh */
+    border-collapse: collapse; /* Menggabungkan border sel */
+}
+
+#tabel7 th, #tabel7 td {
+    padding: 12px; /* Jarak dalam sel */
+    text-align: left; /* Teks rata kiri */
+    border-bottom: 1px solid #ddd; /* Garis bawah sel */
+}
+
+#tabel7 th {
+    background-color: #4CAF50; /* Warna latar belakang header */
+    color: white; /* Warna teks header */
+}
+
+#tabel7 tr:hover {
+    background-color: #f1f1f1; /* Efek hover pada baris */
+}
+
+/* Menjaga agar kolom tidak berantakan */
+#tabel7 td {
+    overflow-wrap: break-word; /* Memungkinkan kata panjang untuk terputus ke baris berikutnya */
+}
+
+/* Responsivitas untuk perangkat kecil */
+@media (max-width: 600px) {
+    #tabel7 {
+        display: block;
+        overflow-x: auto; /* Menambahkan scroll horizontal jika perlu */
+        white-space: nowrap; /* Mencegah teks turun ke baris baru */
+    }
+
+    #tabel7 th, #tabel7 td {
+        display: inline-block; /* Mengubah tampilan menjadi inline-block untuk responsivitas */
+        width: auto; /* Lebar otomatis untuk kolom */
+        min-width: 100px; /* Lebar minimum untuk kolom agar tidak terlalu kecil */
+        box-sizing: border-box; /* Mengatur box sizing agar padding termasuk dalam lebar total */
+    }
+}
+
+body {
+    background-color: #f8abeb; /* Ganti dengan kode warna yang diinginkan */
+}
+
+#tabel8 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel8 thead {
+    background-color: #f2f2f2; /* Warna latar belakang untuk header */
+}
+
+#tabel8 th, #tabel8 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel8 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+#tabel9 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel9 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel9 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+#tabel10 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel10 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel10 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+#tabel11 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel11 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel11 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+/* CSS untuk membuat tabel responsif */
+#tabel12 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel12 th, #tabel12 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+#tabel12 th {
+    background-color: #f2f2f2; /* Warna latar belakang untuk header */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel12 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+/* CSS untuk membuat tabel responsif */
+#tabel13 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel13 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel13 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+/* CSS untuk membuat tabel responsif */
+#tabel14 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel14 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel14 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+/* CSS untuk membuat tabel responsif */
+#tabel15 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel15 th, #tabel15 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+#tabel15 th {
+    background-color: #f2f2f2; /* Warna latar belakang untuk header */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel15 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+/* CSS untuk membuat tabel responsif */
+#tabel16 {
+    width: 100%; /* Mengatur lebar tabel menjadi 100% dari kontainer */
+    border-collapse: collapse; /* Menghapus jarak antara sel */
+    overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+    display: block; /* Membuat tabel dapat digeser */
+}
+
+#tabel16 th, #tabel16 td {
+    border: 1px solid #ddd; /* Menambahkan batas pada sel */
+    padding: 8px; /* Menambahkan padding di dalam sel */
+    text-align: left; /* Mengatur teks agar rata kiri */
+}
+
+#tabel16 th {
+    background-color: #f2f2f2; /* Warna latar belakang untuk header */
+}
+
+/* Menambahkan gaya untuk tampilan lebih baik di perangkat kecil */
+@media (max-width: 600px) {
+    #tabel16 {
+        display: block; /* Memastikan tabel dapat digeser di perangkat kecil */
+        overflow-x: auto; /* Memungkinkan penggulangan horizontal */
+        white-space: nowrap; /* Mencegah teks membungkus ke baris berikutnya */
+    }
+}
+
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+
+#tabel17 {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#tabel17 th, #tabel17 td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 768px) {
+    #tabel17 th, #tabel17 td {
+        font-size: 12px;
+    }
+}
+
